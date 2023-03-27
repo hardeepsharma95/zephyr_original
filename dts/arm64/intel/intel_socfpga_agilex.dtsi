@@ -99,6 +99,12 @@
 		reg = <0x10000000 0x200000>;
 	};
 
+	freeze_controller0: freeze_controller0@f9000450 {
+		compatible = "intel,freeze-controller";
+		reg = <0xf9000450 0x00000010>;
+		status = "disabled";
+	};
+
 	fpga_config: fpga@10800000 {
 		/* Reserve Memory For FPGA Config */
 		compatible = "zephyr,memory-region";
