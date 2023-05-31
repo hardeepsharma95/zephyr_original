@@ -506,3 +506,329 @@
 /dts/bindings/gpio/*ads114s0x*            @benediktibk
 /dts/bindings/pwm/*max31790*              @benediktibk
 /dts/bindings/dac/*ad56*                  @benediktibk
+/dts/bindings/usb/snps,designware_usbh.yaml      @nareshrkumar
+/dts/common/                              @galak
+/include/                                 @nashif @carlescufi @galak @MaureenHelm
+/include/zephyr/drivers/*/*litex*                @mateusz-holenko @kgugala @pgielda
+/include/zephyr/drivers/adc.h                    @anangl
+/include/zephyr/drivers/auxdisplay.h       @thedjnK
+/include/zephyr/drivers/can.h                    @alexanderwachter @henrikbrixandersen
+/include/zephyr/drivers/can/                     @alexanderwachter @henrikbrixandersen
+/include/zephyr/drivers/counter.h                @nordic-krch
+/include/zephyr/drivers/dac.h                    @martinjaeger
+/include/zephyr/drivers/espi.h                   @albertofloyd @franciscomunoz @sjvasanth1
+/include/zephyr/drivers/bluetooth/               @alwa-nordic @jhedberg @Vudentz
+/include/zephyr/drivers/flash.h                  @nashif @carlescufi @galak @MaureenHelm @de-nordic
+/include/zephyr/drivers/i2c_emul.h               @sjg20
+/include/zephyr/drivers/i3c.h                    @dcpleung
+/include/zephyr/drivers/i3c/                     @dcpleung
+/include/zephyr/drivers/led/ht16k33.h            @henrikbrixandersen
+/include/zephyr/drivers/interrupt_controller/    @dcpleung @nashif
+/include/zephyr/drivers/interrupt_controller/gic.h @stephanosio
+/include/zephyr/drivers/modem/hl7800.h           @rerickson1
+/include/zephyr/drivers/pcie/                    @dcpleung
+/include/zephyr/drivers/hwinfo.h                 @alexanderwachter
+/include/zephyr/drivers/led.h                    @Mani-Sadhasivam
+/include/zephyr/drivers/led_strip.h              @mbolivar-nordic
+/include/zephyr/drivers/sensor.h                 @MaureenHelm
+/include/zephyr/drivers/smbus.h                  @finikorg
+/include/zephyr/drivers/spi.h                    @tbursztyka
+/include/zephyr/drivers/sip_svc/                 @maheshraotm
+/include/zephyr/drivers/lora.h                   @Mani-Sadhasivam
+/include/zephyr/drivers/peci.h                   @albertofloyd @franciscomunoz @sjvasanth1
+/include/zephyr/drivers/pm_cpu_ops.h             @carlocaione
+/include/zephyr/drivers/pm_cpu_ops/              @carlocaione
+/include/zephyr/drivers/w1.h                     @str4t0m
+/include/zephyr/app_memory/                      @dcpleung
+/include/zephyr/arch/arc/                        @abrodkin @ruuddw @evgeniy-paltsev
+/include/zephyr/arch/arc/arch.h                  @abrodkin @ruuddw @evgeniy-paltsev
+/include/zephyr/arch/arc/v2/irq.h                @abrodkin @ruuddw @evgeniy-paltsev
+/include/zephyr/arch/arm/aarch32/                @MaureenHelm @galak @ioannisg
+/include/zephyr/arch/arm/aarch32/cortex_a_r/     @stephanosio
+/include/zephyr/arch/arm64/                      @carlocaione
+/include/zephyr/arch/arm64/cortex_r/             @povergoing
+/include/zephyr/arch/arm/aarch32/irq.h           @carlocaione
+/include/zephyr/arch/mips/                       @frantony
+/include/zephyr/arch/nios2/                      @nashif
+/include/zephyr/arch/nios2/arch.h                @nashif
+/include/zephyr/arch/posix/                      @aescolar @daor-oti
+/include/zephyr/arch/riscv/                      @kgugala @pgielda
+/include/zephyr/arch/x86/                        @jhedberg @dcpleung
+/include/zephyr/arch/common/                     @andyross @nashif
+/include/zephyr/arch/xtensa/                     @andyross @dcpleung
+/include/zephyr/arch/sparc/                      @julius-barendt
+/include/zephyr/sys/atomic.h                     @andyross
+/include/zephyr/bluetooth/                       @alwa-nordic @jhedberg @Vudentz @sjanc
+/include/zephyr/bluetooth/audio/                 @jhedberg @Vudentz @Thalley
+/include/zephyr/cache.h                          @carlocaione @andyross
+/include/zephyr/canbus/                          @alexanderwachter @henrikbrixandersen
+/include/zephyr/tracing/                         @nashif
+/include/zephyr/debug/                           @nashif
+/include/zephyr/debug/coredump.h                 @dcpleung
+/include/zephyr/debug/gdbstub.h                  @ceolin
+/include/zephyr/device.h                         @tbursztyka @nashif
+/include/zephyr/devicetree.h                     @galak
+/include/zephyr/devicetree/can.h                 @henrikbrixandersen
+/include/zephyr/dt-bindings/clock/kinetis_mcg.h  @henrikbrixandersen
+/include/zephyr/dt-bindings/clock/kinetis_scg.h  @henrikbrixandersen
+/include/zephyr/dt-bindings/ethernet/xlnx_gem.h  @ibirnbaum
+/include/zephyr/dt-bindings/pcie/                @dcpleung
+/include/zephyr/dt-bindings/pinctrl/esp*         @sylvioalves
+/include/zephyr/dt-bindings/pwm/*it8xxx2*        @RuibinChang
+/include/zephyr/dt-bindings/usb/usb.h            @galak
+/include/zephyr/drivers/emul.h                   @sjg20
+/include/zephyr/fs/                              @nashif @de-nordic
+/include/zephyr/init.h                           @nashif @andyross
+/include/zephyr/irq.h                            @dcpleung @nashif @andyross
+/include/zephyr/irq_offload.h                    @dcpleung @nashif @andyross
+/include/zephyr/kernel.h                         @dcpleung @nashif @andyross
+/include/zephyr/kernel_version.h                 @dcpleung @nashif @andyross
+/include/zephyr/linker/app_smem*.ld              @dcpleung @nashif
+/include/zephyr/linker/                          @dcpleung @nashif @andyross
+/include/zephyr/logging/                         @nordic-krch
+/include/zephyr/lorawan/lorawan.h                @Mani-Sadhasivam
+/include/zephyr/mgmt/osdp.h                      @sidcha
+/include/zephyr/mgmt/mcumgr/                     @nordicjm
+/include/zephyr/net/                             @rlubos @tbursztyka
+/include/zephyr/net/buf.h                        @jhedberg @tbursztyka @rlubos
+/include/zephyr/net/coap*.h                      @rlubos
+/include/zephyr/net/lwm2m*.h                     @rlubos
+/include/zephyr/net/mqtt.h                       @rlubos
+/include/zephyr/net/mqtt_sn.h                    @rlubos @BeckmaR
+/include/zephyr/net/net_pkt_filter.h             @npitre
+/include/zephyr/posix/                           @cfreidt
+/include/zephyr/pm/pm.h                          @nashif @ceolin
+/include/zephyr/drivers/ptp_clock.h              @tbursztyka
+/include/zephyr/rtio/                            @teburd
+/include/zephyr/shared_irq.h                     @dcpleung @nashif @andyross
+/include/zephyr/shell/                           @jakub-uC @nordic-krch
+/include/zephyr/shell/shell_mqtt.h               @ycsin
+/include/zephyr/sw_isr_table.h                   @dcpleung @nashif @andyross
+/include/zephyr/sd/                              @danieldegrasse
+/include/zephyr/sip_svc/                         @maheshraotm
+/include/zephyr/sys_clock.h                      @dcpleung @nashif @andyross
+/include/zephyr/sys/sys_io.h                     @dcpleung @nashif @andyross
+/include/zephyr/sys/kobject.h                    @dcpleung @nashif
+/include/zephyr/toolchain.h                      @dcpleung @andyross @nashif
+/include/zephyr/toolchain/                       @dcpleung @nashif @andyross
+/include/zephyr/usb/class/usbh_msc.h             @nareshrkumar
+/include/zephyr/zephyr.h                         @dcpleung @nashif @andyross
+/kernel/                                  @dcpleung @nashif @andyross
+/lib/cpp/                                 @stephanosio
+/lib/smf/                                 @sambhurst
+/lib/util/                                @carlescufi @jakub-uC
+/lib/util/fnmatch/                        @carlescufi @jakub-uC
+/lib/open-amp/                            @arnopo
+/lib/os/                                  @dcpleung @nashif @andyross
+/lib/os/cbprintf_packaged.c               @npitre
+/lib/posix/                               @cfriedt
+/lib/posix/getopt/                        @jakub-uC
+/subsys/portability/                      @nashif
+/lib/libc/                                @nashif
+/lib/libc/arcmwdt/                        @abrodkin @ruuddw @evgeniy-paltsev
+/misc/                                    @tejlmand
+/modules/                                 @nashif
+/modules/canopennode/                     @henrikbrixandersen
+/modules/mbedtls/                         @ceolin @d3zd3z
+/modules/hal_gigadevice/                  @nandojve
+/modules/hal_nordic/nrf_802154/           @jciupis
+/modules/trusted-firmware-m/              @microbuilder
+/kernel/device.c                          @andyross @nashif
+/kernel/idle.c                            @andyross @nashif
+/samples/                                 @nashif
+/samples/application_development/sysbuild/      @tejlmand @nordicjm
+/samples/basic/minimal/                   @carlescufi
+/samples/basic/servo_motor/boards/*microbit* @jhe
+/samples/bluetooth/                       @jhedberg @Vudentz @alwa-nordic @sjanc
+/samples/boards/intel_s1000_crb/          @sathishkuttan @dcpleung @nashif
+/samples/boards/intel_socfpga/            @nbalabak
+/samples/compression/                     @Navin-Sankar
+/samples/drivers/can/                     @alexanderwachter @henrikbrixandersen
+/samples/drivers/clock_control_litex/     @mateusz-holenko @kgugala @pgielda
+/samples/drivers/eeprom/                  @henrikbrixandersen
+/samples/drivers/ht16k33/                 @henrikbrixandersen
+/samples/drivers/lora/                    @Mani-Sadhasivam
+/samples/drivers/smbus/                   @finikorg
+/samples/drivers/soc_flash_nand/          @nbalabak
+/samples/drivers/soc_flash_qspi/          @skhadgi
+/samples/subsys/lorawan/                  @Mani-Sadhasivam
+/samples/modules/canopennode/             @henrikbrixandersen
+/samples/net/                             @rlubos @tbursztyka
+/samples/net/cloud/tagoio_http_post/      @nandojve
+/samples/net/dns_resolve/                 @rlubos @tbursztyka
+/samples/net/lwm2m_client/                @rlubos
+/samples/net/mqtt_publisher/              @rlubos
+/samples/net/mqtt_sn_publisher/           @rlubos @BeckmaR
+/samples/net/sockets/coap_*/              @rlubos
+/samples/net/sockets/                     @rlubos @tbursztyka
+/samples/sensor/                          @MaureenHelm
+/samples/shields/                         @avisconti
+/samples/subsys/ipc/ipc_service/icmsg     @emob-nordic
+/samples/subsys/logging/                  @nordic-krch @jakub-uC
+/samples/subsys/logging/syst/             @dcpleung
+/samples/subsys/shell/                    @jakub-uC @nordic-krch
+/samples/subsys/sip_svc/                  @maheshraotm
+/samples/subsys/mgmt/mcumgr/              @de-nordic @nordicjm
+/samples/subsys/mgmt/updatehub/           @nandojve @otavio
+/samples/subsys/mgmt/osdp/                @sidcha
+/samples/subsys/usb/                      @jfischer-no
+/samples/subsys/usb_c/                    @sambhurst
+/samples/subsys/pm/                       @nashif @ceolin
+/samples/tfm_integration/                 @microbuilder
+/samples/userspace/                       @dcpleung @nashif
+/scripts/release/bug_bash.py              @cfriedt
+/scripts/coccicheck                       @himanshujha199640 @JuliaLawall
+/scripts/coccinelle/                      @himanshujha199640 @JuliaLawall
+/scripts/coredump/                        @dcpleung
+/scripts/footprint/                       @nashif
+/scripts/kconfig/                         @ulfalizer
+/scripts/logging/dictionary/              @dcpleung
+/scripts/pylib/twister/expr_parser.py     @nashif
+/scripts/schemas/twister/                 @nashif
+/scripts/build/gen_app_partitions.py            @dcpleung @nashif
+scripts/build/gen_image_info.py           @tejlmand
+/scripts/get_maintainer.py                @nashif
+/scripts/dts/                             @mbolivar-nordic @galak
+/scripts/release/                         @nashif
+/scripts/ci/                              @nashif
+/scripts/ci/check_compliance.py           @nashif @carlescufi
+/arch/x86/gen_gdt.py                      @dcpleung @nashif
+/arch/x86/gen_idt.py                      @dcpleung @nashif
+/scripts/build/gen_kobject_list.py        @dcpleung @nashif
+/scripts/build/gen_kobject_placeholders.py      @dcpleung
+/scripts/build/gen_syscalls.py            @dcpleung @nashif
+/scripts/list_boards.py                   @mbolivar-nordic
+/scripts/build/process_gperf.py           @dcpleung @nashif
+/scripts/build/gen_relocate_app.py        @dcpleung
+/scripts/generate_usb_vif/                @madhurimaparuchuri
+/scripts/requirements*.txt                @mbolivar-nordic @galak @nashif
+/scripts/tests/twister/                   @aasthagr
+/scripts/tests/build/test_subfolder_list.py @rmstoi
+/scripts/tracing/                         @nashif
+/scripts/pylib/twister/                   @nashif
+/scripts/twister                          @nashif
+/scripts/series-push-hook.sh              @erwango
+/scripts/utils/pinctrl_nrf_migrate.py     @gmarull
+/scripts/utils/migrate_mcumgr_kconfigs.py @de-nordic
+/scripts/west_commands/                   @mbolivar-nordic
+/scripts/west_commands/blobs.py           @carlescufi
+/scripts/west_commands/fetchers/          @carlescufi
+/scripts/west_commands/runners/gd32isp.py @mbolivar-nordic @nandojve
+/scripts/west_commands/tests/test_gd32isp.py @mbolivar-nordic @nandojve
+/scripts/west-commands.yml                @mbolivar-nordic
+/scripts/zephyr_module.py                 @tejlmand
+/scripts/build/uf2conv.py                 @petejohanson
+/scripts/build/user_wordsize.py           @cfriedt
+/scripts/valgrind.supp                    @aescolar @daor-oti
+/share/sysbuild/                          @tejlmand @nordicjm
+/share/zephyr-package/                    @tejlmand
+/share/zephyrunittest-package/            @tejlmand
+/subsys/bluetooth/                        @alwa-nordic @jhedberg @Vudentz
+/subsys/bluetooth/audio/                  @jhedberg @Vudentz @Thalley @sjanc
+/subsys/bluetooth/controller/             @carlescufi @cvinayak @thoh-ot @kruithofa
+/subsys/bluetooth/host/                   @alwa-nordic @jhedberg @Vudentz @sjanc
+/subsys/bluetooth/mesh/                   @jhedberg @PavelVPV @Vudentz @LingaoM
+/subsys/canbus/                           @alexanderwachter @henrikbrixandersen
+/subsys/debug/                            @nashif
+/subsys/debug/coredump/                   @dcpleung
+/subsys/debug/gdbstub/                    @ceolin
+/subsys/debug/gdbstub.c                   @ceolin
+/subsys/dfu/                              @de-nordic @nordicjm
+/subsys/disk/                             @jfischer-no
+/subsys/dsp/                              @yperess
+/subsys/tracing/                          @nashif
+/subsys/debug/asan_hacks.c                @aescolar @daor-oti
+/subsys/demand_paging/                    @dcpleung @nashif
+/subsys/emul/                             @sjg20
+/subsys/fb/                               @jfischer-no
+/subsys/fs/                               @nashif
+/subsys/fs/nvs/                           @Laczen
+/subsys/ipc/                              @carlocaione
+/subsys/ipc/ipc_service/*/*icmsg*         @emob-nordic
+/subsys/logging/                          @nordic-krch
+/subsys/logging/backends/log_backend_net.c @nordic-krch @rlubos
+/subsys/lorawan/                          @Mani-Sadhasivam
+/subsys/mgmt/ec_host_cmd/                 @jettr
+/subsys/mgmt/mcumgr/                      @carlescufi @de-nordic @nordicjm
+/subsys/mgmt/hawkbit/                     @Navin-Sankar
+/subsys/mgmt/updatehub/                   @nandojve @otavio
+/subsys/mgmt/osdp/                        @sidcha
+/subsys/modbus/                           @jfischer-no
+/subsys/net/buf.c                         @jhedberg @tbursztyka @rlubos
+/subsys/net/ip/                           @rlubos @tbursztyka
+/subsys/net/lib/                          @rlubos @tbursztyka
+/subsys/net/lib/dns/                      @rlubos @tbursztyka @cfriedt
+/subsys/net/lib/lwm2m/                    @rlubos
+/subsys/net/lib/config/                   @rlubos @tbursztyka
+/subsys/net/lib/mqtt/                     @rlubos
+/subsys/net/lib/mqtt_sn/                  @rlubos @BeckmaR
+/subsys/net/lib/coap/                     @rlubos
+/subsys/net/lib/sockets/socketpair.c      @cfriedt
+/subsys/net/lib/sockets/                  @rlubos @tbursztyka
+/subsys/net/lib/tls_credentials/          @rlubos
+/subsys/net/l2/                           @rlubos @tbursztyka
+/subsys/net/l2/canbus/                    @alexanderwachter
+/subsys/net/pkt_filter/                   @npitre
+/subsys/net/*/openthread/                 @rlubos
+/subsys/pm/                               @nashif @ceolin
+/subsys/random/                           @dleach02
+/subsys/shell/                            @jakub-uC @nordic-krch
+/subsys/shell/backends/shell_mqtt.c       @ycsin
+/subsys/sd/                               @danieldegrasse
+/subsys/sip_svc/                          @maheshraotm
+/subsys/task_wdt/                         @martinjaeger
+/subsys/testsuite/                        @nashif
+/subsys/testsuite/ztest/*/ztress*         @nordic-krch
+/subsys/timing/                           @nashif @dcpleung
+/subsys/usb/                              @jfischer-no
+/subsys/usb/host/class/                   @nareshrkumar
+/subsys/usb/usb_c/                        @sambhurst
+/subsys/fpga_bridge                       @hardeepsharma95
+/tests/                                   @nashif
+/tests/arch/arm/                          @ioannisg @stephanosio
+/tests/benchmarks/cmsis_dsp/              @stephanosio
+/tests/boards/native_posix/               @aescolar @daor-oti
+/tests/bluetooth/                         @alwa-nordic @jhedberg @Vudentz @sjanc
+/tests/bluetooth/controller/              @cvinayak @thoh-ot @kruithofa @erbr-ot @sjanc @ppryga
+/tests/bsim/bluetooth/                    @alwa-nordic @jhedberg @Vudentz @wopu-ot
+/tests/bsim/bluetooth/audio/              @jhedberg @Vudentz @wopu-ot @Thalley
+/tests/bsim/bluetooth/mesh/               @jhedberg @Vudentz @wopu-ot @PavelVPV
+/tests/bluetooth/mesh_shell/              @jhedberg @Vudentz @sjanc @PavelVPV
+/tests/bluetooth/tester/                  @alwa-nordic @jhedberg @Vudentz @sjanc
+/tests/posix/                             @cfriedt
+/tests/crypto/                            @ceolin
+/tests/crypto/mbedtls/                    @nashif @ceolin @d3zd3z
+/tests/drivers/can/                       @alexanderwachter @henrikbrixandersen
+/tests/drivers/counter/                   @nordic-krch
+/tests/drivers/eeprom/                    @henrikbrixandersen @sjg20
+/tests/drivers/flash_simulator/           @de-nordic
+/tests/drivers/gpio/                      @mnkp
+/tests/drivers/hwinfo/                    @alexanderwachter
+/tests/drivers/smbus/                     @finikorg
+/tests/drivers/spi/                       @tbursztyka
+/tests/drivers/uart/uart_async_api/       @anangl
+/tests/drivers/w1/                        @str4t0m
+/tests/kernel/                            @dcpleung @andyross @nashif
+/tests/lib/                               @nashif
+/tests/lib/cmsis_dsp/                     @stephanosio
+/tests/net/                               @rlubos @tbursztyka
+/tests/net/buf/                           @jhedberg @tbursztyka
+/tests/net/lib/                           @rlubos @tbursztyka
+/tests/net/lib/http_header_fields/        @rlubos @tbursztyka
+/tests/net/lib/mqtt_packet/               @rlubos
+/tests/net/lib/mqtt_sn_packet/            @rlubos @BeckmaR
+/tests/net/lib/mqtt_sn_client/            @rlubos @BeckmaR
+/tests/net/lib/coap/                      @rlubos
+/tests/net/npf/                           @npitre
+/tests/net/socket/socketpair/             @cfriedt
+/tests/net/socket/                        @rlubos @tbursztyka
+/tests/subsys/debug/coredump/             @dcpleung
+/tests/subsys/fs/                         @nashif @de-nordic
+/tests/subsys/mgmt/mcumgr/                @de-nordic @nordicjm
+/tests/subsys/sd/                         @danieldegrasse
+/tests/subsys/rtio/                       @teburd
+/tests/subsys/shell/                      @jakub-uC @nordic-krch
+# Get all docs reviewed
+*.rst                                     @nashif
+/doc/kernel/                              @andyross @nashif
+*posix*.rst                               @aescolar @daor-oti
